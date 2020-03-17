@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2.lesson</title>
+</head>
+<body>
+  <!-- q tag urcuje uvodzovky v texte -->
+  <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+  <p>Here is a quote from WWF's website:</p>
+  <!-- citovanie zo zdroja -->
+  <blockquote cite="http://www.worldwildlife.org/who/index.html">
+    For 50 years, WWF has been protecting the future of nature.
+    The world's leading conservation organization,
+    WWF works in 100 countries and is supported by
+    1.2 million members in the United States and
+    close to 5 million globally.
+  </blockquote>
+  <!-- ul tag vytvorenie zoznamu -->
+  <ul>
+    <!-- li tag riadok v zozname -->
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+    <li>
+      <ul>
+        <li>coffee</li>
+        <li>tea</li>
+        <li>
+          <ul>
+            <li>a</li>
+            <li><b>d</b></li>
+            <li>c</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <!-- ol tag ocislovany zoznam -->
+  <!-- <div>toto nemam robit</div> -->
+  <ol>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+    <li>
+      <!-- ol tag ocislovany zoznam od 50. cisla-->
+      <ol start="50">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+    </li>
+  </ol>
+  <!-- table tag vytvara tabulku -->
+  <table style="">
+    <!-- nazov tabulky -->
+    <caption>Monthly savings</caption>
+    <!-- tr tag riadok v tabulke -->
+    <tr>
+      <!-- th tag prvy riadok je zvyrazneny/head -->
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <!-- td tag bezny riadok v tabulke -->
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+  </table>
+  <!-- dalsia moznost zapisu tabulky -->
+  <table>
+    <!-- hlavicka tabulky -->
+    <thead>
+      <tr>
+        <th>Month</th>
+        <th>Savings</th>
+      </tr>
+    </thead>
+    <!-- telo tabulky -->
+    <tbody>
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+      </tr>
+      <tr>
+        <td>February</td>
+        <td>$80</td>
+      </tr>
+    </tbody>
+    <!-- pata hlavicky -->
+    <tfoot>
+      <tr>
+        <td>Sum</td>
+        <td>$180</td>
+      </tr>
+    </tfoot>
+  </table>
+  <!-- vlozenie obrazku pomocou url adresy -->
+  <img src="https://pbs.twimg.com/profile_images/1046968391389589507/_0r5bQLl.jpg" alt="toto je zlaty pes">
+  <!-- vlozenie obr pomocou cesty -->
+  <img src="./image/2.png" alt="toto je kostra stranky">
+  <!--  -->
+  <img src="cesta nedostupna" alt="obrazok nie je dostupny">
+</body>
+</html>

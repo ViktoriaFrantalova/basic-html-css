@@ -1,0 +1,91 @@
+/* * {
+  border: 1px solid red; sluzi na zistenie kolko dany element zabera priestoru na stranke
+} */
+
+h1 {
+  color: red;
+}
+
+/* to je vysledna farba prveho h1 */
+.title-primary {
+  color: blue;
+}
+
+/* prepisane */
+.moj-list-2 {
+  background-color: red;
+}
+
+/* toto bude platit */
+.moj-list {
+  background-color: green;
+}
+
+/* priorita je vytahovanie pomocou classname, preto bude pozadie zelene */
+ul {
+  background-color: black;
+}
+
+/* block: zarovnanie pod seba */
+a {
+  display: block;
+}
+
+/* "????" */
+.title {
+  font-weight: bold
+}
+
+
+.title-secondary {
+  color: aqua;
+}
+
+/* vytiahnutie elementu s id pomocou # */
+#unikatne {
+  color: rgb(13, 214, 97);
+}
+
+/* selektujem p element ktory je PRIAMYM potomkom div elementu */
+div>p {
+  background-color: yellow;
+}
+
+/* selektujem nasledujuci jeden p element ktory sa nachadza ZA DIV ELEMENTOM */
+div+p {
+  border: 1px solid red;
+}
+
+/* selektujem vsetky p elementy ktore sa nachadzaju ZA DIV ELEMENTOM */
+div~p {
+  color: blue;
+}
+
+h1.title {
+  font-weight: bold;
+}
+
+h1[class*="title"] {
+  font-weight: normal;
+}
+
+.poradie li:first-child {
+  border: 1px solid red;
+}
+
+.poradie li:last-child {
+  border: 1px solid green;
+}
+
+.poradie li:nth-child(3) a {
+  color: white;
+}
+
+.poradie li:nth-child(3) a:hover {
+  color: yellow;
+  /* background-color: white; */
+}
+
+.poradie li a:active {
+  border: 1px solid yellow;
+}
