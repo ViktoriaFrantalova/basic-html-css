@@ -1,0 +1,26 @@
+body {
+  /* pozadie z obr. */
+  /* background-image: url("./img/nahnevany_pes.png");
+  background-attachment: fixed;
+  background-position: top right;
+  background-repeat: no-repeat; */
+
+  /* skrateny zapis */
+  background: orangered url("./img/nahnevany_pes.png") no-repeat fixed top right;
+}
+
+img {
+  border: 3px solid rgb(228, 206, 10);
+}
+
+.pozadie {
+  background-image: url("./img/nahnevany_pes.png");
+  background-repeat: no-repeat;
+  /* background-position: 50px 50px; */
+  background-position: bottom left;
+  /* vypln obrazok na celkovu sirku elementu */
+  background-size: cover;
+  height: 500px;
+  /*sirka vyska*/
+  /* background-size: 300px 100px;  */
+}

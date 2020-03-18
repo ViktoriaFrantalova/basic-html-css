@@ -31,11 +31,9 @@ a {
   display: block;
 }
 
-/* "????" */
 .title {
   font-weight: bold
 }
-
 
 .title-secondary {
   color: aqua;
@@ -51,24 +49,27 @@ div>p {
   background-color: yellow;
 }
 
-/* selektujem nasledujuci jeden p element ktory sa nachadza ZA DIV ELEMENTOM */
+/* selektujem nasledujuci JEDEN p element ktory sa nachadza ZA DIV ELEMENTOM */
 div+p {
   border: 1px solid red;
 }
 
-/* selektujem vsetky p elementy ktore sa nachadzaju ZA DIV ELEMENTOM */
+/* selektujem VSETKY p elementy ktore sa nachadzaju ZA DIV ELEMENTOM */
 div~p {
   color: blue;
 }
 
+/* prepisane */
 h1.title {
   font-weight: bold;
 }
 
+/* vsetky classi s menom title */
 h1[class*="title"] {
   font-weight: normal;
 }
 
+/* zoznam, riadok, prvy element */
 .poradie li:first-child {
   border: 1px solid red;
 }
@@ -77,15 +78,18 @@ h1[class*="title"] {
   border: 1px solid green;
 }
 
+/* nth-child(3n+0)= kazde tretie */
+/* specifikacia pre iba tretieho potomka zoznamu */
 .poradie li:nth-child(3) a {
   color: white;
 }
 
+/* po ukazani mysov */
 .poradie li:nth-child(3) a:hover {
   color: yellow;
-  /* background-color: white; */
 }
 
+/* vykona sa po kliknuti */
 .poradie li a:active {
   border: 1px solid yellow;
 }
