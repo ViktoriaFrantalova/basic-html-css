@@ -1,0 +1,127 @@
+.flex {
+  /* defaultna hodnota flex direction row */
+  flex-direction: row;
+  display: flex;
+  margin: 10px;
+}
+
+.flex-nowrap {
+  /* defaultna hodnota */
+  /* v jednom riadku */
+  flex-wrap: nowrap
+}
+
+.flex-wrap {
+  /* pod sebou */
+  flex-wrap: wrap;
+}
+
+.flex-reverse {
+  /* pod sebou ale od konca */
+  flex-wrap: wrap-reverse;
+}
+
+.container-flex {
+  /* zarovna polozky flexibilneho kontajnera, ked tieto polozky nevzu6iju vsetok priestor na hlavnej osi (vodorovnej) */
+  justify-content: center;
+}
+
+.container-flex li {
+  width: 300px;
+  padding: 20px;
+}
+
+.container-flex li:nth-child(n) {
+  /* vsetky ostatne */
+  background-color: rgb(78, 219, 85);
+}
+
+.container-flex li:nth-child(2),
+.container-flex li:nth-child(8) {
+  background-color: rgb(219, 210, 78);
+}
+
+.container-flex li:nth-child(3),
+.container-flex li:nth-child(7) {
+  background-color: rgb(199, 92, 43);
+}
+
+.container-flex li:nth-child(4),
+.container-flex li:nth-child(6) {
+  background-color: rgb(109, 78, 219);
+}
+
+.container-flex li:nth-child(5) {
+  background-color: rgb(104, 18, 97);
+}
+
+.flex-direction-row-reverse {
+  /* v riadku od konca */
+  flex-direction: row-reverse;
+}
+
+.flex-direction-column {
+  /* v stlpci */
+  flex-direction: column;
+}
+
+.flex-direction-column-reverse {
+  /* v stlpci od konca */
+  flex-direction: column-reverse
+}
+
+.flex-order li:nth-child(3) {
+  /* prenesie treti prvok na poziciu deviateho */
+  order: 9;
+}
+
+.flex-row-max li {
+  /* rovnaka sirka pre li elemnty roytiahnute na celu sirku okna */
+  width: auto;
+  flex: 1;
+}
+
+.flex-grow {
+  /* flex-wrap: nowrap | wrap | wrap-reverse; */
+  flex-wrap: wrap;
+}
+
+.flex-grow li {
+  width: auto;
+  flex-grow: 1;
+}
+
+.flex-grow li:nth-child(2) {
+  /* zvacsi sa druhe li */
+  flex-grow: 2;
+}
+
+.flex-align-self-start {
+  /* zarovnava polozky vo flexibilnom kontajnery */
+  align-items: flex-end;
+  height: 300px;
+}
+
+/* auto | flex-start | flex-end | center | baseline | stretch */
+/* zarovnanie jedneho prvku vo vnutri flex. elementu */
+.flex-align-self-start li:nth-child(1) {
+  align-self: flex-start;
+}
+
+.flex-align-self-start li:nth-child(2) {
+  align-self: flex-end;
+}
+
+.flex-align-self-start li:nth-child(3) {
+  align-self: center;
+}
+
+.flex-align-self-start li:nth-child(4) {
+  /* zakladne usporiadanie/linia */
+  align-self: baseline;
+}
+
+.flex-align-self-start li:nth-child(5) {
+  /* natiahniahnutie prvku 5 */
+  align-self: stretch;
+}

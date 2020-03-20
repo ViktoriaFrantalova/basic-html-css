@@ -16,5 +16,15 @@
 
 8. [lesson.box-model](8.lesson/box-model/index.html), [8.lesson.box-model2](8.lesson/box-model2/index.html) = css reset, divko v divku, box modely teda obalovace
 
-9. [lesson.](9.lesson/flex/index.html) = 
+9. [lesson.flex](9.lesson/flex/index.html), [9.lesson.float](9.lesson/float/index.html) = display flex, display float...
+
+10. [lesson](10.lesson/index.html) = flex-direction: row, row-reverse, column, column-reverse; flex-wrap: nowrap, wrap, wrap-reverse
+
+11. [lesson](11.lesson/index.html) = grid/mriezka
+
+12. [lesson.font](12.lesson/css-font/index.html), [12.lesson.text](12.lesson/css-text/index.html) = ako pouzivat sprvavne fonty, stylovanie textu
+
+13. [lesson.animacie](13.lesson/animation/index.html), [13.lesson.position](13.lesson/position/index.html) = animacie - keyframe, pozicovanie, box
+
+14. [lesson](14.lesson/index.html) = zaklady layoutu, respozivita
 
